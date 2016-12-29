@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "lint": "eslint .",
-    "start": "node server/server.js",
-    "posttest": "npm run lint && nsp check",
-    "test": "NODE_ENV=testing npm run start"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "@mean-expert/boot-script": "^1.0.0",
